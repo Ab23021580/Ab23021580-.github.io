@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">记忆笔记</string>
+    <string name="all_notes">所有笔记</string>
+    <string name="review_notes">待复习</string>
+    <string name="add_note">添加笔记</string>
+    <string name="edit_note">编辑笔记</string>
+    <string name="title">标题</string>
+    <string name="content">内容</string>
+    <string name="save">保存</string>
+    <string name="delete">删除</string>
+    <string name="mark_reviewed">已复习</string>
+</resources>
