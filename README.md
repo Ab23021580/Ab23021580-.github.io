@@ -48,16 +48,16 @@
    - 连接 Android 设备或启动模拟器
    - 点击运行按钮 (▶) 或按 `Shift + F10`
 
-## ✅ APK 打包支援狀態（PR / 最新 Commit）
+## ✅ APK 打包支持状态（PR / 最新 Commit）
 
-- 本專案是**原生 Android（Kotlin + Gradle）**，不是 SvelteKit 專案，因此**不需要 Capacitor**。
+- 本项目是**原生 Android（Kotlin + Gradle）**，不是 SvelteKit 项目，因此**不需要 Capacitor**。
 - APK 打包能力由 GitHub Actions 工作流 `.github/workflows/build-apk.yml` 提供（`./gradlew assembleDebug`）。
-- 已驗證 `main` 分支最新一次 `Build APK` 工作流為成功，且有產出 `app-debug` artifact。
+- 已验证 `main` 分支最新一次 `Build APK` 工作流为成功，且有产出 `app-debug` artifact。
 
-快速檢查方式：
-1. 打開 Actions：`Build APK` 工作流。
-2. 確認最新 run 狀態為 `success`。
-3. 在該 run 的 Artifacts 確認存在 `app-debug`。
+快速检查方式：
+1. 打开 Actions：`Build APK` 工作流。
+2. 确认最新 run 状态为 `success`。
+3. 在该 run 的 Artifacts 确认存在 `app-debug`。
 
 ## 📖 文档
 
